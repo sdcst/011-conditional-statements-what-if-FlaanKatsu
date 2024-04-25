@@ -23,3 +23,16 @@
  Enter password: password
  Access denied
 """
+
+user = "admin"
+password = "12345password"
+userIn = str(input("Enter username: "))
+if user == userIn:
+    passwordIn = str(input("Enter password: "))
+    if passwordIn == password:
+        print("login sucsess")
+        print("Wellcome to TempleOS x86_128!")
+    else:
+        print('error: incorrect password for user "admin"')
+else:
+    print("error: user does not exist.")

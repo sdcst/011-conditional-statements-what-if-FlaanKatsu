@@ -12,3 +12,16 @@
 # Outputs:
 # "the number is even"
 # "the number is odd"
+
+import math
+n = float(input("please enter a number: "))
+nn = n / 2
+na = math.floor(nn)
+nb = math.ceil(nn)
+if n != int(n):
+    print("Error: please enter an intager.")
+else:
+    if na == nb:
+        print(f"the number \"{int(n)}\" is an even number.")
+    else:
+        print(f"the number \"{int(n)}\" is an odd number.")

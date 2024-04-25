@@ -29,3 +29,10 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+input("Welcome to Lord Beelzebub's factoring evaluator!")
+input("This evaluator evaluates if the discriminant of \nax^2 + bx + c = 0 can be factored.")
+a = float(input("Please input the value of \"a\""))
+b = float(input("Please input the value of \"b\""))
+c = float(input("Please input the value of \"c\""))
+
